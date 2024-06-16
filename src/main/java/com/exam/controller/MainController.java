@@ -26,6 +26,7 @@ public class MainController {
     }
 
     // 깃 테스트 1번 진행
+    // user2 작업 완료
     @GetMapping("/main")
     public String main(@RequestParam(required = false, defaultValue = "top") String gCategory, ModelMap model) {
 
