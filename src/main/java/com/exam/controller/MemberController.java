@@ -14,11 +14,12 @@ import java.lang.reflect.Member;
 
 // user2 작업완료3
 // user1 작업완료1
+// 컴퓨터 새 브랜치 생성
 @Controller
 @SessionAttributes(names = {"login"})
 public class MemberController {
 
-    Logger logger = LoggerFactory.getLogger(getClass());
+        Logger logger = LoggerFactory.getLogger(getClass());
 
     MemberService memberService;
 
