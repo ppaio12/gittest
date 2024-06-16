@@ -17,6 +17,7 @@ import java.lang.reflect.Member;
 // 컴퓨터 새 브랜치 생성
 // 브랜치 생성 확인했습니다.
 // 수정했습니다.
+// 마지막 수정
 @Controller
 @SessionAttributes(names = {"login"})
 public class MemberController {
