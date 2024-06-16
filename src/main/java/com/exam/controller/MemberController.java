@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.lang.reflect.Member;
 
+// user2 작업완료3
 @Controller
 @SessionAttributes(names = {"login"})
 public class MemberController {
